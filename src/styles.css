@@ -1,0 +1,169 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-navy: var(--navy);
+  --color-navy-soft: var(--navy-soft);
+  --color-pink: var(--pink);
+  --color-pink-deep: var(--pink-deep);
+  --color-pink-soft: var(--pink-soft);
+  --color-cream: var(--cream);
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "DM Sans", sans-serif;
+}
+
+:root {
+  --radius: 0.75rem;
+
+  --cream: #ffffff;
+  --navy: #041e42;
+  --navy-soft: #0a3166;
+  --pink: #ffc0cb;
+  --pink-deep: #b5798a;
+  --pink-soft: #fdf8f9;
+
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.22 0.06 265);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.22 0.06 265);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.22 0.06 265);
+  --primary: oklch(0.22 0.06 265);
+  --primary-foreground: oklch(0.98 0.003 247);
+  --secondary: oklch(0.97 0.012 350);
+  --secondary-foreground: oklch(0.22 0.06 265);
+  --muted: oklch(0.97 0.008 340);
+  --muted-foreground: oklch(0.48 0.04 265);
+  --accent: oklch(0.86 0.06 12);
+  --accent-foreground: oklch(0.22 0.06 265);
+  --destructive: oklch(0.58 0.22 27);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border: oklch(0.92 0.02 340);
+  --input: oklch(0.92 0.02 340);
+  --ring: oklch(0.7 0.08 12);
+}
+
+.dark {
+  /* brand constants stay; only surface tokens flip */
+  --pink-soft: #131f36;
+
+
+
+  --background: oklch(0.16 0.03 265);
+  --foreground: oklch(0.97 0.01 340);
+  --card: oklch(0.21 0.035 265);
+  --card-foreground: oklch(0.97 0.01 340);
+  --popover: oklch(0.21 0.035 265);
+  --popover-foreground: oklch(0.97 0.01 340);
+  --primary: oklch(0.97 0.01 340);
+  --primary-foreground: oklch(0.16 0.03 265);
+  --secondary: oklch(0.26 0.04 265);
+  --secondary-foreground: oklch(0.97 0.01 340);
+  --muted: oklch(0.26 0.04 265);
+  --muted-foreground: oklch(0.74 0.03 340);
+  --accent: oklch(0.78 0.09 12);
+  --accent-foreground: oklch(0.16 0.03 265);
+  --destructive: oklch(0.7 0.19 22);
+  --destructive-foreground: oklch(0.97 0 0);
+  --border: oklch(0.32 0.04 265);
+  --input: oklch(0.32 0.04 265);
+  --ring: oklch(0.78 0.09 12);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+
+  ::selection {
+    background: var(--pink);
+    color: var(--navy);
+  }
+}
+
+@utility serif {
+  font-family: var(--font-serif);
+}
+
+@utility eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--pink-deep);
+  font-weight: 400;
+}
+
+@utility section-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.25rem, 4.8vw, 3.75rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+@layer base {
+  .section-title em {
+    font-style: italic;
+    color: var(--pink-deep);
+  }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@utility animate-marquee {
+  animation: marquee 35s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
