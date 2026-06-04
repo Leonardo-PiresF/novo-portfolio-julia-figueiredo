@@ -61,7 +61,7 @@ export function About() {
             <div className="space-y-5 text-muted-foreground leading-relaxed">
               <Reveal delay={0.05}>
                 <p>
-                  Olá marca! Me chamo <strong className="text-foreground font-medium">Julia Figueiredo</strong>, e sou UGC Creator, formada em
+                  Olá marca! Me chamo <strong className="text-foreground font-medium">Júlia Figueiredo</strong>, e sou UGC Creator, formada em
                   Publicidade e Propaganda, com anos de experiência criando conteúdo estratégico para redes sociais.
                   Mas, mais do que criar vídeos estéticos, eu produzo conteúdos que performam, que prendem a atenção
                   nos primeiros segundos e que transformam visualizações em desejo e desejo em conversão.
