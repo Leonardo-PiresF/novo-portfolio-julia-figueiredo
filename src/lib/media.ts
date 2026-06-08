@@ -25,6 +25,7 @@ export const VIDEOS: VideoItem[] = [
   { src: "", poster: "/thumbs/thumb-nivea2.png", vimeoId: "1198890728", title: "Nivea", brand: "", category: "portfolio" },
   { src: "", poster: "/thumbs/thumb-wepink.png", vimeoId: "1198891605", title: "We Pink", brand: "", category: "portfolio" },
   { src: "", poster: "/thumbs/thumb-hollyland.png", vimeoId: "1198892776", title: "Hollyland", brand: "", category: "portfolio" },
+  { src: "", poster: "/thumbs/thumb-glow.png", vimeoId: "1198258432", title: "Glow Concept", brand: "", category: "ads" },
   { src: "/videos/video1.mp4", poster: "/fotos/portfolio(1).jpg",  title: "Beth Girl",           brand: "", category: "feed" },
   { src: "/videos/video6.mp4", poster: "/fotos/portfolio(5).JPG",  title: "Beth Girl",           brand: "", category: "feed" },
   { src: "/videos/video9.mp4", poster: "/fotos/portfolio(10).JPG", title: "Suerte",              brand: "",        category: "portfolio" },
