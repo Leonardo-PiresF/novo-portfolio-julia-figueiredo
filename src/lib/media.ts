@@ -29,6 +29,8 @@ export const VIDEOS: VideoItem[] = [
   { src: "/videos/video1.mp4", poster: "/fotos/portfolio(1).jpg",  title: "Beth Girl",           brand: "", category: "feed" },
   { src: "/videos/video6.mp4", poster: "/fotos/portfolio(5).JPG",  title: "Beth Girl",           brand: "", category: "feed" },
   { src: "/videos/video9.mp4", poster: "/fotos/portfolio(10).JPG", title: "Suerte",              brand: "",        category: "portfolio" },
+  { src: "", poster: "/thumbs/thumb-anee.png", vimeoId: "1203535016", title: "ANEETHUN", brand: "", category: "portfolio" },
+
 ];
 
 export type PhotoItem = { src: string; full: string; title: string; sub: string };
@@ -47,6 +49,11 @@ export const PHOTOS: PhotoItem[] = [
   { src: "/fotos/labotrat.JPG",      full: "/fotos/labotrat.JPG",      title: "Labotrat", sub: "" },
   { src: "/fotos/labotrat2.JPG",     full: "/fotos/labotrat2.JPG",     title: "Labotrat", sub: "" },
   { src: "/fotos/ju-labotrat.JPG",   full: "/fotos/ju-labotrat.JPG",   title: "Labotrat", sub: "" },
+  { src: "/fotos/portfolio(12).JPG",   full: "/fotos/portfolio(12).JPG",   title: "ANEETHUN", sub: "" },
+  { src: "/fotos/portfolio(13).JPG",   full: "/fotos/portfolio(13).JPG",   title: "ANEETHUN", sub: "" },
+  { src: "/fotos/portfolio(14).JPG",   full: "/fotos/portfolio(14).JPG",   title: "ANEETHUN", sub: "" },
+  { src: "/fotos/portfolio(15).JPG",   full: "/fotos/portfolio(15).JPG",   title: "ANEETHUN", sub: "" },
+
 
 ];
 
