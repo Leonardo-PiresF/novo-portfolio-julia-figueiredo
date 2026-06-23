@@ -29,7 +29,7 @@ export const VIDEOS: VideoItem[] = [
   { src: "/videos/video1.mp4", poster: "/fotos/portfolio(1).jpg",  title: "Beth Girl",           brand: "", category: "feed" },
   { src: "/videos/video6.mp4", poster: "/fotos/portfolio(5).JPG",  title: "Beth Girl",           brand: "", category: "feed" },
   { src: "/videos/video9.mp4", poster: "/fotos/portfolio(10).JPG", title: "Suerte",              brand: "",        category: "portfolio" },
-  { src: "", poster: "/thumbs/thumb-anee.png", vimeoId: "1203535016", title: "ANEETHUN", brand: "", category: "portfolio" },
+  { src: "", poster: "/thumbs/thumb-anee.png", vimeoId: "1203535016", title: "ANEETHUN", brand: "", category: "ads" },
 
 ];
 
