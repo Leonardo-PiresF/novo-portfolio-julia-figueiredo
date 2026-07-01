@@ -26,6 +26,13 @@ const testimonials = [
     avatar: CLIENTS.c3,
     initial: "C",
   },
+  {
+    text: "Amamos o trabalho da Maria!",
+    name: "Aneethun",
+    role: "Produtos profissionais",
+    avatar: CLIENTS.c4,
+    initial: "A",
+  },
 ];
 
 export function Testimonials() {

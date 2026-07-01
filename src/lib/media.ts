@@ -1,5 +1,4 @@
-// Media references from the original site. Place actual files under /public
-// using the same paths so they resolve at runtime.
+
 
 export const PROFILE = {
   hero: "/fotos/julia-perfil.JPG",
@@ -62,6 +61,8 @@ export const CLIENTS = {
   c1: "/fotos/clientes/cliente1.jpg",
   c2: "/fotos/clientes/cliente2.jpg",
   c3: "/fotos/clientes/cliente3.jpg",
+  c4: "/fotos/aneethun.jpeg",
+
 };
 
 export const WHATSAPP = "5582996241281";
