@@ -37,8 +37,8 @@ export const VIDEOS: VideoItem[] = [
 export type PhotoItem = { src: string; full: string; title: string; sub: string };
 
 export const PHOTOS: PhotoItem[] = [
-  { src: "/fotos/portfolio(4).JPG",  full: "/fotos/portfolio(4).JPG",  title: "Beth Girl", sub: "" },
-  { src: "/fotos/portfolio(11).jpg",   full: "/fotos/portfolio(11).jpg",   title: "Labotrat", sub: "" },
+  { src: "/fotos/portfolio(11).jpg",  full: "/fotos/portfolio(11).jpg",  title: "Beth Girl", sub: "" },
+  { src: "/fotos/portfolio(16).JPG",   full: "/fotos/portfolio(16).JPG",   title: "Pantene", sub: "" },
   { src: "/fotos/portfolio(5).JPG",  full: "/fotos/portfolio(5).JPG",  title: "We Pink",   sub: "" },
   { src: "/fotos/portfolio(6).JPG",  full: "/fotos/portfolio(6).JPG",  title: "Hollyland", sub: "" },
   { src: "/fotos/portfolio(7).JPG",  full: "/fotos/portfolio(7).JPG",  title: "We Pink",   sub: "" },
