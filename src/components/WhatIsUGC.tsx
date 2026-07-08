@@ -35,7 +35,7 @@ export function WhatIsUGC() {
                   }}
                 >
                   <img
-                    src="/fotos/ju-labotrat.JPG"
+                    src="/fotos/ju-labotrat.jpg"
                     alt="Julia Figueiredo com produto Labotrat"
                     loading="eager"
                     className="w-full h-full object-cover block"

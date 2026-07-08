@@ -2,9 +2,9 @@
 
 export const PROFILE = {
   hero: "/fotos/julia-perfil.JPG",
-  about1: "/fotos/julia-sobre.JPG",
-  about2: "/fotos/julia-sobremini2.JPG",
-  product: "/fotos/julia-produto.JPG",
+  about1: "/fotos/julia-sobre.jpg",
+  about2: "/fotos/julia-sobremini2.jpg",
+  product: "/fotos/julia-produto.jpg",
   bethgirl: "/fotos/IMG_1407.jpg",
 };
 
@@ -30,6 +30,7 @@ export const VIDEOS: VideoItem[] = [
   { src: "/videos/video9.mp4", poster: "/fotos/portfolio(10).JPG", title: "Suerte",              brand: "",        category: "portfolio" },
   { src: "", poster: "/thumbs/thumb-anee.png", vimeoId: "1203535016", title: "ANEETHUN", brand: "", category: "ads" },
   { src: "", poster: "/thumbs/thumb-graoesabor.png", vimeoId: "1198257104", title: "Grão e Sabor", brand: "", category: "ads" },
+  { src: "", poster: "/thumbs/thumb-shortperfumoa.png", vimeoId: "1207556756", title: "Perfumoá", brand: "", category: "ads" },
 
 ];
 
@@ -37,23 +38,26 @@ export type PhotoItem = { src: string; full: string; title: string; sub: string 
 
 export const PHOTOS: PhotoItem[] = [
   { src: "/fotos/portfolio(11).jpg",  full: "/fotos/portfolio(11).jpg",  title: "Beth Girl", sub: "" },
-  { src: "/fotos/portfolio(16).JPG",   full: "/fotos/portfolio(16).JPG",   title: "Pantene", sub: "" },
-  { src: "/fotos/portfolio(5).JPG",  full: "/fotos/portfolio(5).JPG",  title: "We Pink",   sub: "" },
-  { src: "/fotos/portfolio(6).JPG",  full: "/fotos/portfolio(6).JPG",  title: "Hollyland", sub: "" },
-  { src: "/fotos/portfolio(7).JPG",  full: "/fotos/portfolio(7).JPG",  title: "We Pink",   sub: "" },
-  { src: "/fotos/portfolio(8).JPG",  full: "/fotos/portfolio(8).JPG",  title: "We Pink",   sub: "" },
-  { src: "/fotos/portfolio.JPG",     full: "/fotos/portfolio.JPG",     title: "We Pink",   sub: "" },
-  { src: "/fotos/portfolio(9).JPG",  full: "/fotos/portfolio(9).JPG",  title: "Suerte",   sub: "" },
-  { src: "/fotos/portfolio(10).JPG", full: "/fotos/portfolio(10).JPG", title: "Suerte",   sub: "" },
+  { src: "/fotos/portfolio(16).jpg",   full: "/fotos/portfolio(16).jpg",   title: "Pantene", sub: "" },
+  { src: "/fotos/portfolio(5).jpg",  full: "/fotos/portfolio(5).jpg",  title: "We Pink",   sub: "" },
+  { src: "/fotos/portfolio(6).jpg",  full: "/fotos/portfolio(6).jpg",  title: "Hollyland", sub: "" },
+  { src: "/fotos/portfolio(7).jpg",  full: "/fotos/portfolio(7).jpg",  title: "We Pink",   sub: "" },
+  { src: "/fotos/portfolio(8).jpg",  full: "/fotos/portfolio(8).jpg",  title: "We Pink",   sub: "" },
+  { src: "/fotos/portfolio.jpg",     full: "/fotos/portfolio.jpg",     title: "We Pink",   sub: "" },
+  { src: "/fotos/portfolio(9).jpg",  full: "/fotos/portfolio(9).jpg",  title: "Suerte",   sub: "" },
+  { src: "/fotos/portfolio(10).jpg", full: "/fotos/portfolio(10).jpg", title: "Suerte",   sub: "" },
   { src: "/fotos/glow.jpg",          full: "/fotos/glow.jpg",          title: "Glow",     sub: "" },
-  { src: "/fotos/labotrat.JPG",      full: "/fotos/labotrat.JPG",      title: "Labotrat", sub: "" },
-  { src: "/fotos/labotrat2.JPG",     full: "/fotos/labotrat2.JPG",     title: "Labotrat", sub: "" },
-  { src: "/fotos/ju-labotrat.JPG",   full: "/fotos/ju-labotrat.JPG",   title: "Labotrat", sub: "" },
-  { src: "/fotos/portfolio(12).JPG",   full: "/fotos/portfolio(12).JPG",   title: "ANEETHUN", sub: "" },
-  { src: "/fotos/portfolio(13).JPG",   full: "/fotos/portfolio(13).JPG",   title: "ANEETHUN", sub: "" },
-  { src: "/fotos/portfolio(14).JPG",   full: "/fotos/portfolio(14).JPG",   title: "ANEETHUN", sub: "" },
-  { src: "/fotos/portfolio(15).JPG",   full: "/fotos/portfolio(15).JPG",   title: "ANEETHUN", sub: "" },
-
+  { src: "/fotos/labotrat.jpg",      full: "/fotos/labotrat.jpg",      title: "Labotrat", sub: "" },
+  { src: "/fotos/labotrat2.jpg",     full: "/fotos/labotrat2.jpg",     title: "Labotrat", sub: "" },
+  { src: "/fotos/ju-labotrat.jpg",   full: "/fotos/ju-labotrat.jpg",   title: "Labotrat", sub: "" },
+  { src: "/fotos/portfolio(12).jpg",   full: "/fotos/portfolio(12).jpg",   title: "ANEETHUN", sub: "" },
+  { src: "/fotos/portfolio(13).jpg",   full: "/fotos/portfolio(13).jpg",   title: "ANEETHUN", sub: "" },
+  { src: "/fotos/portfolio(14).jpg",   full: "/fotos/portfolio(14).jpg",   title: "ANEETHUN", sub: "" },
+  { src: "/fotos/portfolio(15).jpg",   full: "/fotos/portfolio(15).jpg",   title: "ANEETHUN", sub: "" },
+  { src: "/fotos/portfolio(17).jpg",   full: "/fotos/portfolio(17).jpg",   title: "Perfumoá", sub: "" },
+  { src: "/fotos/portfolio(18).jpg",   full: "/fotos/portfolio(18).jpg",   title: "Perfumoá", sub: "" },
+  { src: "/fotos/portfolio(19).jpg",   full: "/fotos/portfolio(19).jpg",   title: "Perfumoá", sub: "" },
+  { src: "/fotos/portfolio(20).jpg",   full: "/fotos/portfolio(20).jpg",   title: "Perfumoá", sub: "" },
 
 ];
 
@@ -62,6 +66,7 @@ export const CLIENTS = {
   c2: "/fotos/clientes/cliente2.jpg",
   c3: "/fotos/clientes/cliente3.jpg",
   c4: "/fotos/aneethun.jpeg",
+  c5: "/fotos/perfumoa.jpg",
 
 };
 

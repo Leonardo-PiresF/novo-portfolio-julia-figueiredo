@@ -29,9 +29,15 @@ const testimonials = [
   {
     text: "Amamos o trabalho da Maria!",
     name: "Aneethun",
-    role: "Produtos profissionais",
+    role: "Perfumaria profissional",
     avatar: CLIENTS.c4,
-    initial: "A",
+  },
+  {
+    text: "Júlia, que absurdooo! Tu entrega demais. Tô impactada. Toda a equipe adorou seu conteúdo, simplesmente perfeito. ✨",
+    name: "PERFUMOÁ",
+    role: "Produtos profissionais",
+    avatar: CLIENTS.c5,
+    
   },
 ];
 
