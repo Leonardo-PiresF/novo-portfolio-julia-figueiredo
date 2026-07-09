@@ -5,27 +5,7 @@ import { Reveal } from "./Reveal";
 import { CLIENTS } from "@/lib/media";
 
 const testimonials = [
-  {
-    text: "Oi, Ju! Tudo bem? Menina, que conteúdo incrível que você produziu. O pessoal da agência adorou!!!",
-    name: "Bruna",
-    role: "Agência de marketing",
-    avatar: CLIENTS.c1,
-    initial: "B",
-  },
-  {
-    text: "Passando para te dar um feedback da nossa equipe: amamos os vídeosss. Você bateu a meta de vendas aqui da loja. Parabéns pelo excelente trabalho.",
-    name: "Elisabeth",
-    role: "Loja varejista",
-    avatar: CLIENTS.c2,
-    initial: "E",
-  },
-  {
-    text: "Você é diferenciada demais. Superou as expectativas! 😍😍",
-    name: "Carlos",
-    role: "Marca de serviços",
-    avatar: CLIENTS.c3,
-    initial: "C",
-  },
+  
   {
     text: "Amamos o trabalho da Maria!",
     name: "Aneethun",
