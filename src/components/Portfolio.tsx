@@ -6,13 +6,14 @@ import { SmartImage } from "./SmartImage";
 import { VIDEOS, PHOTOS, type VideoItem, type PhotoItem } from "@/lib/media";
 
 type Tab = "v" | "f";
-type Filter = "all" | "feed" | "portfolio" | "ads";
+type Filter = "all" | "Beleza" | "Esportes" | "Tecnologia"| "Gastronomia";
 
 const filters: { key: Filter; label: string }[] = [
   { key: "all", label: "Todos" },
-  { key: "feed", label: "Feed / Instagram" },
-  { key: "portfolio", label: "Portfólio" },
-  { key: "ads", label: "Paid Ads" },
+  { key: "Beleza", label: "Beleza" },
+  { key: "Esportes", label: "Esportes" },
+  { key: "Tecnologia", label: "Tecnologia" },
+  { key: "Gastronomia", label: "Gastronomia" },
 ];
 
 // ─── VimeoThumb ────────────────────────────────────────────────────────────────

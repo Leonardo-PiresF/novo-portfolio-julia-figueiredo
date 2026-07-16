@@ -5,18 +5,34 @@ import { Reveal } from "./Reveal";
 import { CLIENTS } from "@/lib/media";
 
 const testimonials = [
+
+  {
+    text: "conteúdo de qualidade e bem alinhado à proposta da campanha.",
+    name: "Labpop/Labotrat",
+    role: "",
+    avatar: CLIENTS.c3,
+    
+  },
   
   {
     text: "Amamos o trabalho da Maria!",
     name: "Aneethun",
-    role: "Perfumaria profissional",
+    role: "",
     avatar: CLIENTS.c4,
   },
   {
     text: "Júlia, que absurdooo! Tu entrega demais. Tô impactada. Toda a equipe adorou seu conteúdo, simplesmente perfeito. ✨",
     name: "PERFUMOÁ",
-    role: "Produtos profissionais",
+    role: "",
     avatar: CLIENTS.c5,
+    
+  },
+
+  {
+    text: "MARAVILHOSAAAA, maria julia foi super rapida entendeu o roteiro maravilhosamente bem, alem de ser linda e super didática, amamos demais!!!",
+    name: "Amiùr",
+    role: "",
+    avatar: CLIENTS.c6,
     
   },
 ];
